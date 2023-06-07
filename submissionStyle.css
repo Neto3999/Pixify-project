@@ -1,0 +1,23 @@
+.photoSubmissions {
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55%;
+    gap: 3% 8%;
+    padding: 4%;
+}
+
+.form {
+    color: white;
+    clear: right;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark_Blue);
+    padding: 20px 40px;
+    row-gap: 15px;
+    border-radius: 8px;
+}
+.form input {
+    border-radius: 5px;
+    padding: 5px 0;
+}
