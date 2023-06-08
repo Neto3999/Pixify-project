@@ -7,11 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-nav, .rightNav, #bubble {
+nav, #bubble {
     display: flex;
     background-color: var(--dark_Blue);
     color: var(--Neon_Blue);
+    align-items: center;
 }
 
 nav {
@@ -19,28 +19,20 @@ nav {
     padding: 1% 2%;
 }
 
-.rightNav {
-    column-gap: 20px;
+.rightNav  {
+    display: flex;
     align-items: center;
+    column-gap: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.rightNav a, .leftNav a {
     text-decoration: none;
     color: white;
 }
 
-#bubble {
-    border-radius: 100px 100px 100px 0;
-    height: 40%;
-    width: 40%;
-    align-items: center;
-    color: white;
-    position: absolute;
-    bottom: 0;
-}
-
-button {
-    border: solid var(--Neon_Blue);
+.leftNav a {
+    font-size: 36px;
     color: var(--Neon_Blue);
-    background: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }

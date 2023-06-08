@@ -1,6 +1,26 @@
 body {
     background-image: url(images/reinhart-julian-WxM465oM4j4-unsplash\ 1.png);
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+#bubble {
+    color: white;
+    background-color: var(--dark_Blue);
+}
+
+button {
+    padding: 10px 30px;
+    border: solid 2px var(--Neon_Blue);
+    color: var(--Neon_Blue);
+    border-radius: 60px;
     font-size: 36px;
+    background: none;
+    right: 0;
+}
+
+button, #bubble {
+    position: absolute;
+    bottom: 0;
 }

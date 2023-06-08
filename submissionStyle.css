@@ -5,6 +5,7 @@
     width: 55%;
     gap: 3% 8%;
     padding: 4%;
+    text-align: center;
 }
 
 .form {
@@ -20,4 +21,8 @@
 .form input {
     border-radius: 5px;
     padding: 5px 0;
+}
+
+.form button {
+    padding: 50px;
 }
