@@ -1,6 +1,7 @@
 body {
     background-image: url(images/reinhart-julian-WxM465oM4j4-unsplash\ 1.png);
     background-size: cover;
+    background-position-y: -90%;
     font-family: 'Montserrat';
     font-size: 30px;
 }
@@ -8,19 +9,27 @@ body {
 #bubble {
     color: white;
     background-color: var(--dark_Blue);
+    width: 520px;
+    height: 260px;
+    border-radius: 150px 150px 150px 0;
+    font-size: 25px;
+    bottom: 0;
+    text-align: center;
+    padding: 50px 25px;
 }
 
 button {
-    padding: 10px 30px;
+    padding: 30px 60px;
     border: solid 2px var(--Neon_Blue);
     color: var(--Neon_Blue);
     border-radius: 60px;
     font-size: 36px;
+    font-weight: 200;
     background: none;
-    right: 0;
+    right: 15px;
+    bottom: 15px;
 }
 
 button, #bubble {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
 }

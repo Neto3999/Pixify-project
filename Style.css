@@ -13,6 +13,10 @@ p, h1, h2, h3 {
 
 body {
     background-color: var(--light_Mode);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .darkMode {
@@ -29,7 +33,7 @@ nav, #bubble {
 
 nav {
     justify-content: space-between;
-    padding: 1% 2%;
+    padding: .5% 2%;
 }
 
 .rightNav  {
