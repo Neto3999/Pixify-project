@@ -7,6 +7,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+p, h1, h2, h3 {
+    color: var(--dark_Mode)
+}
+
+body {
+    background-color: var(--light_Mode);
+}
+
+.darkMode {
+    --dark_Mode: #FFFFFF;
+    --light_Mode: #2A3B49;
+}
+
 nav, #bubble {
     display: flex;
     background-color: var(--dark_Blue);
@@ -35,4 +48,14 @@ nav {
 .leftNav a {
     font-size: 36px;
     color: var(--Neon_Blue);
+}
+
+.darkModeButton {
+    color: var(--Neon_Blue);
+    border: none;
+    background-color: var(--dark_Blue);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+    font-family: 'Montserrat';
 }
