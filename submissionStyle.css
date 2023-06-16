@@ -44,7 +44,12 @@ h1 {
     background-color: var(--dark_Blue);
     padding: 10px 0 30px;
 }
-
+.discription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
 /* CSS DETAILS */ 
 
 h1, .form {
