@@ -7,7 +7,6 @@
 }
 
 #photographer {
-  font-weight: 400px;
   font-size: 25px;
 }
 
@@ -24,11 +23,6 @@ button {
   margin: 10px;
 }
 
-#cards:nth-child(2) {
-  transform: rotate(8deg) translateX(-10%);
-  transition: transform 800ms cubic-bezier(.05,.43,.25,.95);
-}
-
 #previous, #next {
   width: 130px;
   padding: 5px 5px;
@@ -39,6 +33,7 @@ button {
   margin-top: 25px;
   border: solid 2px var(--dark_Mode);
 }
+
 .darkMode #previous, .darkMode #next{
   --dark_Mode: #7BFFE9;
   --light_Mode: #2A3B49;
