@@ -1,4 +1,5 @@
 /* GRID SETUP */
+
 main {
     display: grid;
     grid-template-areas:
@@ -9,13 +10,17 @@ main {
     margin: 0 50px;
     text-align: center;
 }
+
 h1 {
     grid-area: header;
     margin-top: 25px;
 }
+
 .subheader {
     grid-area: subheader;
+    font-size: 20px;
 }
+
 .topic {
     grid-area: main;
     text-align: left;
@@ -23,16 +28,19 @@ h1 {
     flex-direction: column;
     row-gap: 5px;
 }
+
 img {
     grid-area: image;
     height: 84%;
     margin-left: 25px;
 }
+
 .link {
     grid-area: button;
 }
 
 /* BUTTON */
+
 main button {
     width: 50%;
     padding: 30px 4px;
@@ -41,11 +49,14 @@ main button {
     background-color: var(--dark_Blue);
     margin-top: 25px;
     border: solid 2px var(--dark_Mode);
+    justify-content: flex-end;
 }
+
 button a {
     text-decoration: none;
     color: #7BFFE9;
 }
+
 .darkMode button{
     --dark_Mode: #7BFFE9;
     --light_Mode: #2A3B49;

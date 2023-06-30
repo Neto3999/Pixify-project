@@ -1,6 +1,6 @@
   //DarkMode
 // selector
-const themeToggleBtn = document.querySelector('.darkModeButton');
+const themeToggleBtn = document.querySelector('.dark_Mode_Button');
 
 // state
 const theme = localStorage.getItem('theme');

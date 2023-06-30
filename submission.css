@@ -11,6 +11,7 @@ main {
         grid-template-columns: 1fr 1fr 470px;
         gap: 50px;
 }
+
 h1 {
     grid-area: header;
     justify-content: center;
@@ -25,24 +26,31 @@ h1 {
     color: white;
     height: 575px;
 }
+
 .photo1 {
     grid-area: main1;
 }
+
 .photo2 {
     grid-area: main2;
 }
+
 .photo3 {
     grid-area: main3;
 }
+
 .photo4 {
     grid-area: main4;
 }
+
 .photo5 {
     grid-area: main5;
 }
+
 .photo6 {
     grid-area: main6;
 }
+
 .discription {
     display: flex;
     justify-content: space-between;
@@ -65,10 +73,13 @@ h1, .form {
     font-size: 30px;
     margin-top: 20px;
 }
-
+.form a {
+    text-decoration: none;
+    color: var(--Neon_Blue);
+}
 .form input {
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 10px 0 10px 10px;
     color: var(--gray);
     width: 80%;
 }

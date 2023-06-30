@@ -1,7 +1,8 @@
 body {
     background-image: url(images/reinhart-julian-WxM465oM4j4-unsplash\ 1.png);
     background-size: cover;
-    background-position-y: -90%;
+    background-position-y: -110px;
+    background-repeat: no-repeat;
     font-family: 'Montserrat';
     font-size: 30px;
 }

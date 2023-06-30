@@ -36,7 +36,7 @@ nav {
     padding: .5% 2%;
 }
 
-.rightNav  {
+.right_Nav  {
     display: flex;
     align-items: center;
     column-gap: 20px;
@@ -44,17 +44,17 @@ nav {
     font-size: 16px;
 }
 
-.rightNav a, .leftNav a {
+.right_Nav a, .left_Nav a {
     text-decoration: none;
     color: white;
 }
 
-.leftNav a {
+.left_Nav a {
     font-size: 36px;
     color: var(--Neon_Blue);
 }
 
-.darkModeButton {
+.dark_Mode_Button {
     color: var(--Neon_Blue);
     border: none;
     background-color: var(--dark_Blue);
